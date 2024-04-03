@@ -1,0 +1,80 @@
+body {
+  background-color: #fbfbfb;
+  cursor: default;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#main {
+  font-family: 'Verdana', sans-serif; 
+  text-align: center;
+}
+
+.date-area {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.date-timestamp { 
+  margin: 5px;
+}
+
+.date-details {
+  width: 430px;
+}
+
+.date-timestamp input {
+  font-size: 22px;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.date-title {
+  font-weight: bold;
+  font-size: 24px;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.date-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-input {
+  text-align: center;
+  margin: 5px;
+}
+
+.date-input input {
+  font-size: 16px;
+  text-align: center;
+}
+
+.date-controls {
+  margin: 5px;
+  text-align: left;
+}
+
+select {
+  background: white;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+button {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 8px;
+}
